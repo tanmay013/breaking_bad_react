@@ -1,0 +1,105 @@
+.card{
+    height: 420px;
+    min-height: 420px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 50px 163px -70px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:20px 40px;
+}
+
+.cardback{
+    background-color: aliceblue;
+    background: var(--imageUrls) center center repeat;
+    background-size: 330px;
+    background-position: 0px 0px 10px;
+}
+
+.cardback:hover{
+    background: var(--imageUrls) left center repeat;
+    background-size: 530px;
+}
+
+.cardback:hover h2,
+.cardback:hover .btn{
+    opacity: 1;
+}
+
+
+.border{
+    height: 410px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align:start;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #F6F6F6;
+    text-shadow: 5px 0px 20px black;
+    margin: 20px 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 30px;
+}
+
+.btn{
+    opacity: 0;
+    border-radius: 4px;
+    background: #A05344;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 120px;
+    margin: 30px 20px;
+    box-shadow: 10px 0px 30px black;
+    text-shadow: 1px 0px 10px black;
+}
+
+.btn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.btn span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span{
+  padding-right: 25px;
+}
+  
+.btn:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+  

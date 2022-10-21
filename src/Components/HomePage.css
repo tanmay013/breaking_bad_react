@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homePageMain{
+    background-color: #181818;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+}
+
+.CharacterHeading{
+    color: #FBF2CF;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CardContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoaderHashCard{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    transition: all 3s;
+
+}

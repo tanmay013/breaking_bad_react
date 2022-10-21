@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.CardDescMain{
+    background-color: #181818;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+    color:#fff;
+    padding: 30px;
+    min-height: 100vh;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.DetailsContainer{
+    background-color: #3C2317;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 20px;
+    justify-content:space-evenly;
+    padding: 4% 0px;
+    margin: 0 2%;
+    border: 2px solid black ;
+    box-shadow: 10px 10px 50px black;
+    white-space: pre-wrap;
+}
+
+
+.CardDescMain img{
+    border-radius: 10px ;
+    width: 330px;
+    height: 450px;
+    margin-top: 0px;
+    margin: 5px;
+    border: 2px solid #1C0A00;
+    box-shadow: 10px 10px 50px #1C0A00;
+}
+
+.CardDescMain .DetailsText{
+    margin-left: 1%;  
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    text-shadow: #1C0A00 1px 0px 10px;
+    word-wrap: break-word;
+}
+
+.DetailsText h1{
+    color: #BCCEF8;
+    font-size: 50px;
+    margin-bottom: 7%;
+}
+
+.DetailsText p{
+    color: #FFE7CC;
+    margin-left: 20px;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+
+.loaderDesc{
+    background-color: #181818;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 30%;
+    padding-bottom: 30%;
+}
+
+@media only screen and (max-width:1056px){
+
+    .DetailsContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .DetailsContainer{
+        margin-top: 10%;
+    }
+
+    .CardDescMain .DetailsText{
+        margin-top: 5%;  
+        text-align: center;
+        text-shadow: black 1px 0px 10px;
+        word-wrap: break-word;
+    }
+}
